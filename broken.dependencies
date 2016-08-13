@@ -7,7 +7,7 @@
   },
   {
     "remote": "github",
-    "repository": "ethanbanker2428/android_kernel_oneplus_msm8996",
+    "repository": "ethanbanker2428/kernel_oneplus_msm8996",
     "target_path": "kernel/oneplus/msm8996",
     "branch": "cm-13.0"
   },
@@ -16,6 +16,12 @@
     "repository": "ethanbanker2428/vendor_oneplus",
     "target_path": "vendor/oneplus",
     "branch": "cm-13.0"
+  },
+  {
+    "remote": "github",
+    "repository": "ethanbanker2428/vendor_qcom_thulium",
+    "target_path": "vendor/qcom/thulium",
+    "branch": "oneplus3/6.0.1"
   },
   {
     "remote": "github",
