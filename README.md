@@ -7,6 +7,7 @@ CPU     | Quad-core (2x2.15 GHz Kryo & 2x1.6 GHz Kryo)
 CHIPSET | Qualcomm MSM8996 Snapdragon 820
 GPU     | Adreno 530
 Memory  | 6GB
+Hardware Features | FingerPrint Scanner, Notification Slider
 Shipped Android Version | 6.0.1
 Storage | 64GB
 Battery | 3000 mAh
