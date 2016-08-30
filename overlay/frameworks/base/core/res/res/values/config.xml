@@ -333,7 +333,7 @@
     <bool name="config_carrier_volte_available">true</bool>
 
     <!-- Flag specifying whether VoLTE TTY is supported -->
-    <bool name="config_carrier_volte_tty_supported">false</bool>
+    <bool name="config_carrier_volte_tty_supported">true</bool>
 
     <!--  Maximum number of supported users -->
     <integer name="config_multiuserMaximumUsers">4</integer>
