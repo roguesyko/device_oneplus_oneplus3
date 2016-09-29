@@ -477,7 +477,7 @@ service qcamerasvr /system/bin/mm-qcamera-daemon
 service fingerprintd /system/bin/fingerprintd
     class late_start
     user system
-    group input
+    group system
     writepid /dev/cpuset/system-background/tasks
 
 service qfp-daemon /system/bin/qfp-daemon
@@ -762,7 +762,7 @@ on property:persist.env.fastdorm.enabled=true
 service cnd /system/bin/cnd
     class main
     socket cnd stream 660 root inet
-    group root wakelock
+    group root
     writepid /dev/cpuset/system-background/tasks
 
 service dpmd /system/bin/dpmd
@@ -778,7 +778,7 @@ service irsc_util /system/bin/irsc_util "/etc/sec_config"
 service rmt_storage /system/bin/rmt_storage
     class core
     user root
-    group system wakelock
+    group system
     writepid /dev/cpuset/system-background/tasks
 
 service rfs_access /system/bin/rfs_access
@@ -898,12 +898,12 @@ service qmiproxy /system/bin/qmiproxy
 service qmuxd /system/bin/qmuxd
     class main
     user radio
-    group radio audio bluetooth gps nfc qcom_diag wakelock
+    group radio audio bluetooth gps nfc qcom_diag
     writepid /dev/cpuset/system-background/tasks
 
 service netmgrd /system/bin/netmgrd
     class main
-    group radio system wakelock
+    group radio system
     writepid /dev/cpuset/system-background/tasks
 
 service ipacm-diag /system/bin/ipacm-diag
