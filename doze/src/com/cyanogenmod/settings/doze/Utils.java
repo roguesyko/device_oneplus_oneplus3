@@ -50,7 +50,7 @@ public final class Utils {
 
     protected static boolean isDozeEnabled(Context context) {
         return Settings.Secure.getInt(context.getContentResolver(),
-                Settings.Secure.DOZE_ENABLED, 1) != 1;
+                Settings.Secure.DOZE_ENABLED, 1) != 0;
     }
 
     protected static boolean enableDoze(boolean enable, Context context) {
