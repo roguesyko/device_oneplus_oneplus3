@@ -26,7 +26,7 @@ $(call inherit-product, device/oneplus/oneplus3/device.mk)
 # Enhanced NFC
 $(call inherit-product, vendor/broken/config/nfc_enhanced.mk)
 
-# Inherit some common CM stuff.
+# Inherit some common broken stuff.
 $(call inherit-product, vendor/broken/config/common_full_phone.mk)
 
 PRODUCT_NAME := broken_oneplus3
@@ -40,14 +40,10 @@ TARGET_VENDOR_PRODUCT_NAME := OnePlus3
 TARGET_VENDOR_DEVICE_NAME := OnePlus3
 PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=OnePlus3 PRODUCT_NAME=OnePlus3
 
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT=OnePlus/OnePlus3/OnePlus3:6.0.1/MMB29M/362280:user/release-keys \
-    PRIVATE_BUILD_DESC="OnePlus3-user 6.0.1 MMB29M 24 dev-keys"
-
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST += ro.product.model
 
 TARGET_VENDOR := oneplus
 
 # Broken Device Maintainers
 PRODUCT_BUILD_PROP_OVERRIDES += \
-	DEVICE_MAINTAINERS="Ethan Banker (ethanbanker2428)"
+	DEVICE_MAINTAINERS="David J. Vandenburgh (Seraph08)"
