@@ -1,52 +1,44 @@
 [
   {
     "remote": "github",
-    "repository": "ethanbanker2428/device_oppo_common",
+    "repository": "Seraph08/device_oppo_common",
     "target_path": "device/oppo/common",
-    "branch": "m6.0.1"
+    "branch": "n7.0"
   },
   {
     "remote": "github",
-    "repository": "ethanbanker2428/kernel_oneplus_msm8996",
+    "repository": "CyanogenMod/android_kernel_oneplus_msm8996",
     "target_path": "kernel/oneplus/msm8996",
-    "branch": "cm-13.0"
+    "branch": "cm-14.0"
   },
   {
     "remote": "github",
-    "repository": "ethanbanker2428/vendor_oneplus",
+    "repository": "TheMuppets/proprietary_vendor_oneplus",
     "target_path": "vendor/oneplus",
-    "branch": "cm-13.0"
+    "branch": "cm-14.0"
   },
   {
     "remote": "github",
-    "repository": "ethanbanker2428/vendor_qcom_thulium",
-    "target_path": "vendor/qcom/thulium",
-    "branch": "oneplus3/6.0.1"
+    "repository": "TheMuppets/proprietary_vendor_qcom_binaries",
+    "target_path": "vendor/qcom/binaries",
+    "branch": "cm-14.0"
   },
   {
     "remote": "github",
-    "repository": "Cyanogenmod/android_vendor_qcom_opensource_dataservices",
-    "target_path": "vendor/qcom/opensource/dataservices",
-    "branch": "cm-13.0"
-  },
-  {
-    "repository": "CyanogenMod/android_external_stlport",
-    "target_path": "external/stlport",
-    "branch": "cm-13.0"
-  },
-  {
     "repository": "CyanogenMod/vendor_nxp-nfc_opensource_frameworks",
     "target_path": "vendor/nxp-nfc/opensource/frameworks",
-    "branch": "cm-13.0"
+    "branch": "cm-14.0"
   },
   {
+    "remote": "github",
     "repository": "CyanogenMod/vendor_nxp-nfc_opensource_libnfc-nci",
     "target_path": "vendor/nxp-nfc/opensource/libnfc-nci",
-    "branch": "cm-13.0"
+    "branch": "cm-14.0"
   },
   {
+    "remote": "github",
     "repository": "CyanogenMod/vendor_nxp-nfc_opensource_Nfc",
     "target_path": "vendor/nxp-nfc/opensource/Nfc",
-    "branch": "cm-13.0"
-  },
+    "branch": "cm-14.0"
+  }
 ]
